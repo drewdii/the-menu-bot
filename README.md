@@ -1,6 +1,6 @@
 <!-- TITLE - and quick description -->
 # WHAT IS THIS?
-WELCOME! This a simple bot written in **python** for querying my personal systems, setups, tools, etc.
+WELCOME! This a simple bot written in **python** for querying my personal workflows, systems, and setups.
 
 --- 
 
@@ -15,24 +15,34 @@ search engine for how I get sh*t done.
 
 <!-- TOC: all headings -->
 
-[TOC]
+# TABLE OF CONTENS
 * [INTRO - WHAT IS THIS?](#WHAT-IS-THIS?)
+    * [PROJECT OVERVIEW](#PROJECT-OVERVIEW)
+* [FEATURES](#FEATURES)
+    * [ROADMAP](#ROADMAP)
+* [CREDITS](#CREDITS)
 
+--- 
 
+<!-- Current list of features -->
+# FEATURES
 
+--
 
-# ROADMAP (planned features)
+<!--Description + Visual of potential new functionality/features -->
+# ROADMAP
 - integration with the "main" telegram channel
 - a full/detailed **/help** command
 - a "menu" command that lists all available features
 
-<!-- FEATURES -->
-# features
+--
 
+<!-- Include original sources of softwarre (where to find code) -->
+# CREDITS
 
-<!-- CREDITS: How it was built  -->
-# credits
-
+---
 
 <!--LICENSE -->
-# license
+# LICENSE
+
+---
