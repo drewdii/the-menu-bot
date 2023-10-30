@@ -16,11 +16,11 @@ search engine for how I get sh*t done.
 <!-- TOC: all headings -->
 
 # TABLE OF CONTENS
-* [INTRO](#WHAT-IS-THIS?)
-    * [PROJECT OVERVIEW](#PROJECT-OVERVIEW)
+* [INTRO - What is this?](#WHAT-IS-THIS?)
+    * [project overview](#PROJECT-OVERVIEW)
 * [FEATURES - current](#FEATURES)
-    * [ROADMAP - planned](#ROADMAP)
-* [CREDITS](#CREDITS)
+    * [the roadmap - planned](#ROADMAP)
+* [CREDITS - code bibliography](#CREDITS)
 
 --- 
 
