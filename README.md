@@ -16,10 +16,10 @@ search engine for how I get sh*t done.
 <!-- TOC: all headings -->
 
 # TABLE OF CONTENS
-* [INTRO - WHAT IS THIS?](#WHAT-IS-THIS?)
+* [INTRO](#WHAT-IS-THIS?)
     * [PROJECT OVERVIEW](#PROJECT-OVERVIEW)
-* [FEATURES](#FEATURES)
-    * [ROADMAP](#ROADMAP)
+* [FEATURES - current](#FEATURES)
+    * [ROADMAP - planned](#ROADMAP)
 * [CREDITS](#CREDITS)
 
 --- 
@@ -31,9 +31,6 @@ search engine for how I get sh*t done.
 
 <!--Description + Visual of potential new functionality/features -->
 # ROADMAP
-- integration with the "main" telegram channel
-- a full/detailed **/help** command
-- a "menu" command that lists all available features
 
 --
 
