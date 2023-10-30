@@ -1,7 +1,7 @@
 # breaking down the software
 # I. Dependencies
 # II. Token information
-# III. COMMMANDS.1 & RESPONSES.2 [Logic behind code]
+# III. The Logic - COMMMANDS.1 + RESPONSES.2
 # IV. Initlization of the Bot
 
 
@@ -15,7 +15,7 @@ TOKEN: Final = '6423332775:AAHDiR78mAmkd-ijb5GWk8lgVMVyBtPH5nQ'
 BOT_USERNAME: Final = '@the_menubot'
 
 
-# III.1 COMMANDS
+# III.1 Logic - COMMANDS
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("start command exmaple text")
 
@@ -26,8 +26,7 @@ async def custom_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("custom command example text")
 
 
-
-# III.2 RESPONSES
+# III.2 Logic - RESPONSES
 def handle_response(text: str) -> str:
     processed: str = text.lower()
 
