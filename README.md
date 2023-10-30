@@ -1,3 +1,12 @@
+<!-- WHERE YOU LEFT OFF
+
+1. Creating a solid TOC for users to reference and navigate
+2. Finding a way to include a .gitignore for jpegs, gifs, etc.
+3. Create a simple roadmap visual (gif or pic) to solidfy roadmap
+4. in CREDIT section -- include all apps used for the bot and service
+
+-->
+
 <!-- TITLE - and quick description -->
 # WHAT IS THIS?
 WELCOME! This a simple bot written in **python** for querying my personal workflows, systems, and setups.

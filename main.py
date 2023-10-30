@@ -1,12 +1,21 @@
+# breaking down the software
+# I. Dependencies
+# II. Token information
+# III. COMMMANDS.1 & RESPONSES.2 [Logic behind code]
+# IV. Initlization of the Bot
+
+
+# I. Dependencies + Libraries for the Bot
 from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
+# II. Token information (connecting Bot to Telegram server)
 TOKEN: Final = '6423332775:AAHDiR78mAmkd-ijb5GWk8lgVMVyBtPH5nQ'
 BOT_USERNAME: Final = '@the_menubot'
 
-# COMMANDS
 
+# III.1 COMMANDS
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("start command exmaple text")
 
@@ -17,8 +26,8 @@ async def custom_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("custom command example text")
 
 
-    # RESPONSES
 
+# III.2 RESPONSES
 def handle_response(text: str) -> str:
     processed: str = text.lower()
 
@@ -56,7 +65,7 @@ async def error(update: Update, context: ContextTypes.DEFAULT_TYPE):
      print(f'Update {update} caused error {context.error}')
 
 
-
+# IV. Initialization of Bot
 if __name__ == '__main__':
     print('intializing menu bot')
     app = Application.builder().token(TOKEN).build()
