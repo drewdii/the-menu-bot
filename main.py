@@ -1,7 +1,6 @@
 # easier to understand python scripts
 # main dependenciy = pyTelegramBotAPI
 
-
 import os
 import telebot
 
@@ -17,3 +16,5 @@ def hello(message):
     bot.send_message(message, "Hello!")
 
 bot.polling()
+
+
